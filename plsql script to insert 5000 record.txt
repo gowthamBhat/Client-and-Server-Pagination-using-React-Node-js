@@ -1,0 +1,13 @@
+SELECT * FROM SHOP;
+
+--DECLARE
+--item_qty Integer:=1;
+  item_price Integer:=1;
+--BEGIN
+-- FOR k IN 1..5000 LOOP  
+--        item_qty := DBMS_RANDOM.VALUE(1,100);
+	  item_price := DBMS_RANDOM.VALUE(100,1000);
+--        INSERT INTO shop VALUES (k,item_qty , 'item'||k,item_price);     
+-- END LOOP;
+-- 
+--END;
